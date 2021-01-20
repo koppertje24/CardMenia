@@ -57,7 +57,7 @@
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
-	  unityInstance.SendMessage("DackPanel","SetData","80,97,99,107,115,47,83,116,97,114,116,101,114,80,97,99,107");
+		  unityInstance.SendMessage("DackPanel","SetData","80,97,99,107,115,47,83,116,97,114,116,101,114,80,97,99,107");
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
           };
